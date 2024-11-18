@@ -5,7 +5,7 @@ public class CalcPi {
 		int num = Integer.parseInt(args[0]);
 		double dividedown = 3;
 		double app = 1;
-		for(int i = 0; i<num; i++){
+		for(int i = 1; i<num; i++){
 			if (i%2==0) {
 				app = app-(1/dividedown);
 			}
