@@ -1,4 +1,5 @@
 // Computes an approximation of PI.
+
 public class CalcPi {
 	public static void main(String [] args) { 
 	    // Replace this comment with your code
@@ -12,7 +13,7 @@ public class CalcPi {
 			else{
 			app = app+(1/dividedown);
 			}
-			dividedown = dividedown + 2.0;	
+			dividedown = dividedown + 2;	
 
 		}
 		app = app * 4;
